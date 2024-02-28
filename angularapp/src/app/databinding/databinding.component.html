@@ -1,0 +1,17 @@
+
+
+<h2>String Interpolation</h2>
+<!-- Welcome, {{firstName}} {{lastName}} -->
+<!-- not good practice to call method in html file -->
+Welcome {{getFirstNameAndLastName()}} 
+
+My Object {{employee.id}} {{employee.name}}
+
+<p>20*10 = {{20*10}}</p>
+
+
+<h2>Property Binding</h2>
+
+<img  [src]="imageUrl" width="500" height="500">
+
+<button [disabled]="isDisabled" (click)="disableButton()">Click Me</button>

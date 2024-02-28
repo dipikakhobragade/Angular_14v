@@ -1,0 +1,39 @@
+.container{
+
+    border-radius: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(231, 224, 238);
+
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(19, 10, 3);
+    text-decoration: underline;
+    
+
+}
+img{
+    float: right;
+    height: 200px;
+    width: 200px;
+    padding-right: 100px;
+}
+p{
+    margin-left: 40px;
+    margin-right: 20px;
+    padding-top: 10px;
+    font-weight: bolder;
+    
+}
+.tools{
+    padding-bottom: 20px;
+    text-decoration: solid;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: larger;
+}
